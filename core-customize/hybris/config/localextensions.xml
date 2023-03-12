@@ -239,11 +239,11 @@
     <extension name='selectivecartservices' />
     <extension name='selectivecartsplitlistaddon' />
     <extension name='cmssmartedit' />
-    <!--<extension name='cmssmarteditwebservices' />-->
+    <extension name='cmssmarteditwebservices' />
     <extension name='smartedit' />
     <extension name='smarteditaddon' />
-    <!--<extension name='smartedittools' />
-    <extension name='smarteditwebservices' />-->
+    <extension name='smartedittools' />
+    <extension name='smarteditwebservices' />
     <extension name='stocknotificationaddon' />
     <extension name='stocknotificationfacades' />
     <extension name='stocknotificationservices' />
@@ -287,15 +287,15 @@
     <extension name='xyformsstorefrontcommons' />
     <extension name='xyformsweb' />
 	
-	<!-- custome extension -->
-	<extension name='sncustomwebservices'/>
+    <!-- custome extension -->
+    <extension name='sncustomwebservices'/>
 
-<!-- Sample Extensions -->
+    <!-- Sample Extensions -->
     <extension name='spartacussampledata' />
-<!--<extension name='kiwi' />
+    <!--<extension name='kiwi' />
     <extension name='tiger'/> -->
 
-<!-- If you want to test Cloud Hot Folders locally download the extensions from https://launchpad.support.sap.com/#/notes/2817992 and uncomment the following -->
+    <!-- If you want to test Cloud Hot Folders locally download the extensions from https://launchpad.support.sap.com/#/notes/2817992 and uncomment the following -->
     <!--<extension name='azurecloudhotfolder' />
     <extension name='cloudcommons' />
     <extension name='cloudhotfolder' />-->
