@@ -54,7 +54,7 @@ public class CustomProductDaoImpl implements CustomProductDao {
 	public List<ProductModel> getProductsByName(final String productName) {
 
 		final String FIND_PRODUCT_BY_PRODUCTNAME = "select {" + ProductModel.PK + "} from {" + ProductModel._TYPECODE + "} "
-				+ "where {" + ProductModel.CATALOGVERSION + "}='8796093383257' and {" + ProductModel.APPROVALSTATUS
+				+ "where {" + ProductModel.CATALOGVERSION + "}='8796093678169' and {" + ProductModel.APPROVALSTATUS
 				+ "}= '8796101836891' " + "and {" + ProductModel.NAME + "} like '%" + productName + "%'";
 
 		final SearchResult<ProductModel> searchResult = getFlexibleSearchService().search(FIND_PRODUCT_BY_PRODUCTNAME);

@@ -237,3 +237,10 @@ INSERT_UPDATE ContentSlot;$contentCV[unique=true];uid[unique=true];cmsComponents
 UPDATE CronJob;code[unique=true];active[default=false]
 ;stockLevelStatusCronJob
 ;expiredInterestsCleanUpJob
+
+############ Inventory display - Cameras category now have a stock threshold ################
+$productCatalog=electronicsProductCatalog
+$catalogVersion=catalogversion(catalog(id[default=$productCatalog]),version[default='Online'])[unique=true,default=$productCatalog:Online]
+
+UPDATE Category;$catalogVersion;code[unique=true];stockLevelThreshold
+;;577;343

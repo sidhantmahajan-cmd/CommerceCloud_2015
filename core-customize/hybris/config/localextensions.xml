@@ -6,7 +6,7 @@
     <extension name='adaptivesearchfacades' />
     <extension name='adaptivesearchsamplesaddon' />
     <extension name='adaptivesearchsolr' />
-    <extension name='adaptivesearchwebservices' />
+    <!--<extension name='adaptivesearchwebservices' />-->
     <extension name='apiregistrybackoffice' />
     <extension name='apiregistryservices' />
     <extension name='assistedservicecustomerinterestsaddon' />
@@ -16,7 +16,7 @@
     <extension name='assistedservicepromotionfacades' />
     <extension name='assistedserviceservices' />
     <extension name='assistedservicestorefront' />
-    <extension name='assistedservicewebservices' />
+    <!--<extension name='assistedservicewebservices' />-->
     <extension name='assistedserviceyprofileaddon' />
     <extension name='assistedserviceyprofilefacades' />
     <!--<extension name='yaasyprofileconnect' />
@@ -70,7 +70,7 @@
     <extension name='voucherbackoffice' />
     <extension name='profileservices' />
     <extension name='profiletagaddon' />
-     <!--<extension name='merchandisingaddon' />
+    <!--<extension name='merchandisingaddon' />
     <extension name='merchandisingcmswebservices' />
     <extension name='merchandisingservices' />
     <extension name='merchandisingservicesbackoffice' />
@@ -82,9 +82,9 @@
     <extension name='commercefacades' />
     <extension name='commerceservices' />
     <extension name='commerceservicesbackoffice' />
-    <!--<extension name='commercewebservices' />-->
+    <!--<extension name='commercewebservices' />
     <extension name='commercewebservicescommons' />
-    <!--<extension name='commercewebservicestests' />
+    <extension name='commercewebservicestests' />
     <extension name='yocc' />
     <extension name='yocctests' />-->
     <extension name='configurablebundleaddon' />
@@ -121,7 +121,7 @@
     <extension name='couponbackoffice' />
     <extension name='couponfacades' />
     <extension name='couponservices' />
-    <extension name='couponwebservices' />
+    <!--<extension name='couponwebservices' />-->
     <extension name='customercouponaddon' />
     <extension name='customercouponbackoffice' />
     <extension name='customercouponfacades' />
@@ -145,14 +145,18 @@
     <extension name='entitlementbackoffice' />
     <extension name='entitlementfacades' />
     <extension name='entitlementservices' />
+    <extension name='eventtrackingmodel' />
+    <extension name='eventtrackingpublisher' />
+    <extension name='eventtrackingservices' />
+    <extension name='eventtrackingwsaddon' />
     <extension name='inboundservices' />
     <extension name='integrationbackoffice' />
     <extension name='integrationbackofficetest' />
     <extension name='integrationmonitoringbackoffice' />
     <extension name='integrationservices' />
     <extension name='odata2services' />
-    <extension name='odata2webservices' />
-    <extension name='odata2webservicesfeaturetests' />
+    <!--<extension name='odata2webservices' />
+    <extension name='odata2webservicesfeaturetests' />-->
     <extension name='outboundservices' />
     <extension name='outboundsync' />
     <extension name='outboundsyncbackoffice' />
@@ -170,13 +174,13 @@
     <extension name='b2bordermanagementwebservices' />-->
     <extension name='ordermanagementaddon' />
     <extension name='ordermanagementfacades' />
-    <!--<extension name='ordermanagementwebservices' />-->
+    <extension name='ordermanagementwebservices' />
     <extension name='orderselfserviceaddon' />
     <extension name='warehousing' />
     <extension name='warehousingbackoffice' />
     <extension name='warehousingfacades' />
-    <extension name='warehousingwebservices' />
-    <!--<extension name='yacceleratorordermanagement' />-->
+    <!--<extension name='warehousingwebservices' />-->
+    <extension name='yacceleratorordermanagement' />
     <extension name='personalizationcms' />
     <extension name='personalizationcmsbackoffice' />
     <extension name='personalizationcmsweb' />
@@ -187,7 +191,7 @@
     <extension name='personalizationservices' />
     <extension name='personalizationservicesbackoffice' />
     <extension name='personalizationsmartedit' />
-    <extension name='personalizationwebservices' />
+    <!--<extension name='personalizationwebservices' />-->
     <extension name='previewpersonalizationweb' />
     <extension name='personalizationaddon' />
     <extension name='personalizationyprofile' />
@@ -239,11 +243,11 @@
     <extension name='selectivecartservices' />
     <extension name='selectivecartsplitlistaddon' />
     <extension name='cmssmartedit' />
-    <extension name='cmssmarteditwebservices' />
+    <!--<extension name='cmssmarteditwebservices' />-->
     <extension name='smartedit' />
     <extension name='smarteditaddon' />
-    <extension name='smartedittools' />
-    <extension name='smarteditwebservices' />
+    <!--<extension name='smartedittools' />
+    <extension name='smarteditwebservices' />-->
     <extension name='stocknotificationaddon' />
     <extension name='stocknotificationfacades' />
     <extension name='stocknotificationservices' />
@@ -287,18 +291,12 @@
     <extension name='xyformsstorefrontcommons' />
     <extension name='xyformsweb' />
 	
-    <!-- custome extension -->
+	<!-- custome extension -->
     <extension name='sncustomwebservices'/>
-
-    <!-- Sample Extensions -->
-    <extension name='spartacussampledata' />
-    <!--<extension name='kiwi' />
-    <extension name='tiger'/> -->
-
-    <!-- If you want to test Cloud Hot Folders locally download the extensions from https://launchpad.support.sap.com/#/notes/2817992 and uncomment the following -->
-    <!--<extension name='azurecloudhotfolder' />
-    <extension name='cloudcommons' />
-    <extension name='cloudhotfolder' />-->
-
+	
+	<!-- Sample extension -->
+	<extension name='spartacussampledata' />
+	
+	<!--<extension name='yb2bacceleratorstorefront' />-->
   </extensions>
 </hybrisconfig>

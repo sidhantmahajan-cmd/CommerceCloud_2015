@@ -19,15 +19,15 @@ public class CustomBrandDaoImpl implements CustomBrandDao {
 
 	private FlexibleSearchService flexibleSearchService;
 
-	private static final String GET_BRAND_QUERY = "select {pk},{code},{manufacturername} from {product} where {catalogversion}='8796093383257' "
+	private static final String GET_BRAND_QUERY = "select {pk},{code},{manufacturername} from {product} where {catalogversion}='8796093678169' "
 			+ "and {approvalstatus}= '8796101836891' and {manufacturername} is not null";
 
 	@Override
 	public List<ProductModel> getBrand() {
-		
+
 		final SearchResult<ProductModel> searchResult = getFlexibleSearchService().search(GET_BRAND_QUERY);
 		final List<ProductModel> brandList = searchResult.getResult();
-		
+
 		return brandList;
 	}
 
