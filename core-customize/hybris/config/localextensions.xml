@@ -70,12 +70,12 @@
     <extension name='voucherbackoffice' />
     <extension name='profileservices' />
     <extension name='profiletagaddon' />
-    <!--<extension name='merchandisingaddon' />
-    <extension name='merchandisingcmswebservices' />
+    <extension name='merchandisingaddon' />
+    <!--<extension name='merchandisingcmswebservices' />
     <extension name='merchandisingservices' />
     <extension name='merchandisingservicesbackoffice' />
-    <extension name='merchandisingsmartedit' />
-    <extension name='merchandisingstorefrontsampledataaddon' />-->
+    <extension name='merchandisingsmartedit' />-->
+    <extension name='merchandisingstorefrontsampledataaddon' />
     <extension name='admincockpit' />
     <extension name='productcockpit' />
     <extension name='cockpit' />
@@ -104,7 +104,7 @@
     <extension name='sapproductconfigruntimeinterface' />
     <extension name='sapproductconfigruntimemock' />
     <extension name='sapproductconfigservices' />
-    <!--<extension name='ysapproductconfigaddon' />-->
+    <extension name='ysapproductconfigaddon' />
     <extension name='consignmenttrackingaddon' />
     <extension name='consignmenttrackingbackoffice' />
     <extension name='consignmenttrackingfacades' />
